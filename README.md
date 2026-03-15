@@ -1,4 +1,4 @@
-# Assignment 2 — Simon's Algorithm
+# Assignment 2 - Simon's Algorithm
 ### Quantum Computing | Sujoy Dey
 
 ---
@@ -8,7 +8,7 @@
 | File | Description |
 |------|-------------|
 | `Sujoy_Dey_Assignment_2_Part_A.ipynb` | Simon's Algorithm for the reference 3-bit secret string **s = 011** |
-| `Sujoy_Dey_Assignment_2_Part_B___C.ipynb` | Simon's Algorithm for the 5-bit secret string **s = 10110** + Classical Post-Processing |
+| `Sujoy_Dey_Assignment_2_Part_B_C.ipynb` | Simon's Algorithm for the 5-bit secret string **s = 10110** + Classical Post-Processing |
 | `Sujoy_Dey_Assignment_2_Report.docx` | Full written report covering Parts A, B, and C |
 | `README.md` | This file |
 
@@ -32,7 +32,7 @@ Make sure you have the following installed:
 pip install qiskit qiskit-aer pylatexenc matplotlib
 ```
 
-### Part A — Reference Implementation (s = 011)
+### Part A - Reference Implementation (s = 011)
 
 Open and run `Sujoy_Dey_Assignment_2_Part_A.ipynb` from top to bottom.
 
@@ -41,7 +41,7 @@ Open and run `Sujoy_Dey_Assignment_2_Part_A.ipynb` from top to bottom.
 - Runs 2000 shots on the Qiskit Aer simulator
 - Expected output: only the 4 valid strings `{000, 011, 100, 111}` appear
 
-### Part B & C — 5-bit Implementation + Classical Solver
+### Part B & C - 5-bit Implementation + Classical Solver
 
 Open and run `Sujoy_Dey_Assignment_2_Part_B___C.ipynb` from top to bottom.
 
@@ -72,5 +72,5 @@ This matches the original secret string encoded in the Simon oracle, confirming 
 
 | Part | Secret String | Valid Strings Measured | Recovered s |
 |------|--------------|------------------------|-------------|
-| A    | `011` (3-bit) | `{000, 011, 100, 111}` — all 4 valid | N/A (reference) |
-| B & C | `10110` (5-bit) | 15 non-trivial + `00000` — all 16 valid | `10110` ✓ |
+| A    | `011` (3-bit) | `{000, 011, 100, 111}` - all 4 valid | N/A (reference) |
+| B & C | `10110` (5-bit) | 15 non-trivial + `00000` - all 16 valid | `10110` ✓ |
